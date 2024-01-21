@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Table</title>
+  <style>
+    button{
+      background-color: rgb(208, 209, 207);
+    }
+    span{
+      color:red;
+    }
+  </style>
+</head>
+
+<body>
+  <br><br>
+  <form style="border:1px solid black; padding:40px; margin-left:500px;width:450px;">
+    <fieldset>
+      <legend>Customer</legend>
+      <label style="margin-right:50px">Name<span>*</span></label>
+      <input type="text" name="name" required><br><br>
+      <label style="margin-right:50px">Email<span>*</span></label>
+      <input type="email" name="mail" required><br><br>
+      <label style="margin-right:25px">Investment</label>
+      <select style="width:180px">
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+      </select><br><br>
+      <label style="margin-right:15px;">Date Joined<span>*</span></label>
+      <input type="date" name="date"><br><br>
+      <label style="margin-right:50px">Active</label>
+      <input type="checkbox" name="active"><br><br>
+    </fieldset>
+    <br>
+    <button>OK</button>
+    <button>Cancel</button>
+  </form>
+
+
+</body>
+
+</html>
